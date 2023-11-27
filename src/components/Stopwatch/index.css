@@ -1,0 +1,129 @@
+/* Write CSS here */
+
+@media only screen and (max-width: 767px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    background-size: cover;
+    height: 500px;
+  }
+  .heading {
+    font-weight: 700;
+    font-family: Roboto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .timer-container {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    height: 250px;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+
+  .image-heading-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .timer-heading {
+    font-size: small;
+  }
+  .image-styling {
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+  }
+  .button {
+    border-style: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    height: 25px;
+    width: 60px;
+    color: #ffffff;
+  }
+
+  .button-bg {
+    background-color: #1db05f;
+  }
+  .button-bg1 {
+    background-color: #ef0d36;
+  }
+  .button-bg2 {
+    background-color: #eaa800;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+    height: 600px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .heading {
+    font-weight: 800;
+    font-family: Roboto;
+    margin-left: 65px;
+    margin-top: 65px;
+  }
+
+  .timer-container {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    height: 37vh;
+    width: 37vh;
+    border-radius: 20px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+  .image-heading-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .timer-heading {
+    font-size: small;
+  }
+  .image-styling {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  .buttons-container {
+    display: flex;
+  }
+
+  .button {
+    border-style: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    height: 35px;
+    width: 65px;
+    color: #ffffff;
+  }
+
+  .button-bg {
+    background-color: #1db05f;
+  }
+  .button-bg1 {
+    background-color: #ef0d36;
+  }
+  .button-bg2 {
+    background-color: #eaa800;
+  }
+}
